@@ -1,0 +1,256 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+}
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    background:linear-gradient(to right, #517cff,rgb(49, 39, 39), #517cff);;
+
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+a {
+text-decoration: none !important;
+}
+
+nav {
+background: url('../img/dark_wall.jpg') center; 
+text-align: center;
+width: 1179px;
+height: 60px;
+box-shadow: 0px 2px 2px 2px;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+}
+
+nav:hover{
+    color:blue;
+    text-decoration: none;
+}
+
+nav > a {
+color:grey;
+padding:20px;
+display:inline-block;
+background: none;
+height: 20px;
+opacity: 0.4;
+box-shadow: 2px 0px 2  px 2px;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+}
+
+nav > a:hover {
+opacity: 1;
+color: blue;
+}
+.cover {
+padding: 20px;
+overflow: hidden;
+height: 600px;
+}
+
+.cover img{
+    width: 100%;
+    max-width: 1179px;
+    margin-left:22px;
+}
+
+.boxs {
+width: 1179px;
+height: 320px;
+background: url('../img/dark_wall.jpg') center; 
+text-align: center;
+padding: 25px;
+margin-top: 20px;
+}
+.a-lol {
+width: 193px;
+height: 193px;
+padding-left: 194px;
+padding-bottom: 229px;
+padding-right: 30px;
+cursor: url('../cursor/lol.cur'), auto;	
+}
+
+.a-wow {
+width: 193px;
+height: 193px;
+padding-left: 194px;
+padding-bottom: 229px;
+padding-right: 30px;
+cursor: url('../cursor/wow.cur'), auto;	
+}
+.a-dota {
+width: 193px;
+height: 193px;
+padding-left: 194px;
+padding-bottom: 229px;
+padding-right: 30px;
+cursor: url('../cursor/dota-main.cur'), auto;	
+}
+
+.boxs > div {
+display: -webkit-inline-box;
+box-shadow:0 0px 0px 3px black;
+margin-left: 40px;
+width: 224px;
+height: 250px;
+transition: all 0.2s ease-in-out;
+}
+
+.boxs > div:hover {
+width: 244px;
+height: 270px;
+box-shadow: 0 0 0 4px blue;
+}
+
+.first {
+background:url(https://na.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/clash_2018_login_thumbnail_0.jpg?itok=uYedk3BS) no-repeat center;
+background-size: 700px 300px;
+}
+.second {
+background:url(https://blznav.akamaized.net/img/games/cards/card-world-of-warcraft-54576e6364584e35.jpg) no-repeat center;
+}
+.third {
+background:url(http://slingshotesports.com/wp-content/uploads/2017/08/Dota2-1.jpg) no-repeat center;
+background-size: 500px 300px;
+}
+.about{
+background: url('../img/dark_wall.jpg') center; 
+margin-top: 20px;
+text-align: center;
+width: 1179px;
+}
+.about-info{
+color: red;
+
+}
+
+.lolinfo{
+background: url('../img/dark_wall.jpg') center; 
+width: 1179px;
+margin-top:20px;
+cursor: url('../cursor/lol.cur'), auto;	
+}
+.wowinfo{
+background: url('../img/dark_wall.jpg') center; 
+width: 1179px;
+margin-top:20px;
+cursor: url('../cursor/wow.cur'), auto;	
+}
+.dotainfo{
+background: url('../img/dark_wall.jpg') center; 
+width: 1179px;
+margin-top:20px;
+cursor: url('../cursor/dota-main.cur'), auto;	
+}
+
+.loltext , .wowtext , .dotatext{
+width: 1179px;
+text-align: center;
+Color:red;
+}
+.lolbutton , .wowbutton , .dotabutton{
+width: 127px;
+margin-top: 20px;
+}
+.lbutton {
+color: #222;
+border-color: #f6c653 #bd6a23 #b6631f #e8ab4a;
+box-sizing: border-box;
+border-style: solid;
+border-width: 3px;
+width: auto;
+font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+padding: 6px 20px 4px 20px;
+display: inline-block;
+text-align: center;
+height: 35px;
+opacity: 0.6;
+transition: all 0.2s ease-in-out;
+width: 136px;
+cursor: url('../cursor/lol.cur'), auto;
+background: #f6c653;	
+}
+
+.wbutton {
+    color: #222;
+    border-color: #f6c653 #bd6a23 #b6631f #e8ab4a;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 3px;
+    width: auto;
+    font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 20px 4px 20px;
+    display: inline-block;
+    text-align: center;
+    height: 35px;
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out;
+    width: 136px;
+    cursor: url('../cursor/wow.cur'), auto;	
+    background: #f6c653;	
+    }
+
+.dbutton {
+        color: #222;
+        border-color: #f6c653 #bd6a23 #b6631f #e8ab4a;
+        box-sizing: border-box;
+        border-style: solid;
+        border-width: 3px;
+        width: auto;
+        font-family: "Adobe Garamond Pro",Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 6px 20px 4px 20px;
+        display: inline-block;
+        text-align: center;
+        height: 35px;
+        opacity: 0.6;
+        transition: all 0.2s ease-in-out;
+        width: 136px;
+        cursor: url('../cursor/dota-main.cur'), auto;
+        background: #f6c653;		
+        } 
+
+.lbutton:hover{
+    opacity: 1;
+}
+.wbutton:hover{
+    opacity: 1;
+}
+.dbutton:hover{
+    opacity: 1;
+}
+.copyright {
+margin: 0 auto;
+margin-top: 10px;
+text-decoration: none;
+width: 1179px;
+background: url('../img/dark_wall.jpg') center; 
+text-align: center; 
+}
+
+.copyright-text{
+    display: inline-table;
+    color: #f6c653;
+} 
+.copyright img{
+vertical-align: middle;
+}
+
+.social {
+    background: blue;
+}

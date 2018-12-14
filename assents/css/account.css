@@ -1,0 +1,283 @@
+body{
+  font-family:"Arial", Serif;
+  overflow-x:hidden;
+  background:linear-gradient(to right, #517cff,rgb(49, 39, 39), #517cff);
+ 
+}
+
+.display {
+display:inline-block !important; 
+}
+.nodisplay{
+display: none !important;
+
+}
+.div1{
+display: none !important;
+}
+
+.googbey-over {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #666;
+overflow: hidden;
+display: none;
+z-index: 99999999991;
+}
+.googbey-over div {
+position:absolute;
+top:35%;    
+left:0;
+width:100%;
+color: #fff;
+text-align: center;
+}
+.goodbey-content .gdx-col-50-left {
+width: 50%;
+float: left;
+text-align: right;
+}
+.goodbey-content .gdx-col-50-right {
+width: 50%;
+float: right;
+margin-left: 50%;
+text-align: left;
+padding-top: 50px;
+}
+.goodbey-content .gdx-col-50-right:after {
+content: " ";
+clear: both;
+}
+.goodbey-content .gdx-col-50-left {
+text-align: right;
+}
+.goodbey-content .emoji{
+width: 50px;
+height: 50px;
+
+}
+.navbar{
+  background:linear-gradient(to right, #517cff,rgb(49, 39, 39), #517cff);
+  opacity:0.9;
+  overflow:hidden;
+  vertical-align: middle;
+}
+
+.topicstrong{
+font-size:20px;
+Color:Grey;
+transition: all .4s ease-in-out;
+
+}
+.topicstrong:hover{
+
+  color: white;
+
+
+}
+
+nav > li {
+vertical-align: -webkit-baseline-middle;
+
+}
+
+.navbar-nav img{
+width: 40px;
+height: 40px;
+vertical-align: middle;
+
+}
+.dropdown-menu{
+background-color: transparent !important;
+box-shadow: 0 !important;
+border: 0 !important;
+}
+
+.navbar a{
+  float:left;
+  color:black;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.navbar h1{
+  background:transparent  ;
+  color:red;
+  margin-left: 113px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+  margin-top:-8px;
+}
+.show{
+    transition: 2s !important;
+}
+
+.navbar a:hover{
+  color:#fff;
+  opacity: 0.9;
+}
+
+.side-nav{
+  height:100%;
+  width:0;
+  position:fixed;
+  z-index:1;
+  /* top:0; */
+  left:0;
+  opacity: 0.8;
+  background:linear-gradient(to right, #517cff);
+  overflow-x:hidden;
+  padding-top:60px;
+  border: #000 2px;
+  transition:0.5s;
+}
+
+.side-nav a{
+  padding:10px 10px 10px 30px;
+  text-decoration:none;
+  font-size:22px;
+  color:black;
+  display:block;
+  transition:0.3s;
+}
+
+.side-nav a:hover{
+  color:#fff;
+}
+
+.side-nav .btn-close{
+  position:absolute;
+  top:0;
+  right:22px;
+  font-size:36px;
+  margin-left:50px;
+}
+
+#main{
+  transition:margin-left 0.5s;
+  padding:20px;
+  overflow:hidden;
+  width:100%;
+}
+
+@media(max-width:568px){
+  .navbar-nav{display:none}
+}
+
+@media(min-width:568px){
+  /* .open-slide{display:none} */
+}
+.copyright {
+  margin-top: 50px;
+  text-decoration: none;
+  border: solid 2px rgba(134, 134, 134, 0.08);
+  text-align: center; 
+  height: 203px;
+  }
+  
+  .copyright-text{
+      display: inline-table;
+      color: #f6c653;
+  } 
+  .copyright img{
+  vertical-align: middle;
+  }
+  
+
+.informationtab {
+  border: solid 2px rgba(134, 134, 134, 0.08);
+  width: 100%;
+  height: 750px;
+  margin-left: 200px;
+}
+.cover{
+margin-bottom: 20px;
+}
+.logo > h1{
+  display: unset;
+  vertical-align: middle;
+}
+.logo > h2{
+display: inline-flex;
+vertical-align: middle;
+margin-left: 13px;
+color: rebeccapurple;
+}
+h2> p{
+  font-size: 20px;
+  color: RED;
+  margin-right: 5px;
+  margin-top: -9px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 2px #000;
+  margin:0 50px;
+  margin-top: 50px;
+}
+.followers{
+width: 200px;
+border: solid 2px rgba(134, 134, 134, 0.4);
+text-align: center;
+margin-top: 20px;
+}
+.followers > h3 , h5{
+margin-bottom: -15px;
+
+}
+.followers > hr {
+  border-color: rgba(134, 134, 134, 0.4);
+  border: solid 0.4px;
+
+}
+h2 > img{
+width: 25px;
+vertical-align: middle;
+border-radius: 50%;
+border: solid 0.3px #000;
+}
+h2{
+  vertical-align: middle;
+}
+.joined {
+  position: relative;
+  margin-left: 208px;
+  width: 236px;
+  display: inline-table;
+}
+.active {
+  margin-left:-6px;
+  border-width: 2px 2px 2px 0px;
+
+}
+.co {
+  margin-top: -85px;
+}
+.bio{
+  display:inline;
+  position: absolute;;
+  margin-left: -702px;
+  border: solid 2px rgba(134, 134, 134, 0.4);
+  margin-top:114px;
+}
+
+.bio > h4 {
+  display: inline-flex;
+  margin-right: 5px;
+}
+h4 > p{
+  margin-left: 10px;
+  text-transform: capitalize;
+}
